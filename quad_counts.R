@@ -7,6 +7,7 @@ library(tidyverse)
 library(spatstat)
 library(sp)
 library(rgdal)
+library(RColorBrewer)
 
 ### Data Import and Cleaning ####
 
@@ -67,8 +68,11 @@ raster_extent <- extent(collisions_coord_b[1,1],
 collision_raster@extent <- raster_extent
 
 # Plot
-plot(collision_raster,
+pal_b <- rev(brewer.pal(n=10,name="Spectral"))
+
+plot(collision_raster_2,
      main="Collisions per Quadrant in Seattle, 2018",
+     col=pal_b,
      axes=FALSE)
 plot(seattle, add=TRUE)
-plot(seattle_arterials, col="grey50", add=TRUE)
+plot(seattle_arterials, col="grey25", add=TRUE)

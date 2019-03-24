@@ -2,4 +2,4 @@
 
 An Introduction to Spatial Point Pattern Analysis in R for urban systems analysts.
 
-View this [here](https://michaeljoseph04.github.io/spatialpointpatterns/).
+As an urban planner, I have to do a lot of data analysis of spatial data. This 

@@ -1,5 +1,5 @@
-Spatial Point Patterns
+## Spatial Point Patterns
 
-This site is a guide for spatial point pattern analysis for the analysis of urban systems.
+An Introduction to Spatial Point Pattern Analysis in R for urban system analysts.
 
-Installation: simply download the files or copy the code.
+View this [here](https://michaeljoseph04.github.io/spatialpointpatterns/).

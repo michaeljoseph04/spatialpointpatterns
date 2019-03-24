@@ -84,9 +84,8 @@ plot(collision_raster,
 plot(seattle, add=TRUE)
 plot(seattle_arterials, col="grey50", add=TRUE)
 ```
-It is important to note several things. First, the areas we have selected are arbitrary. If we wanted, we could establish quadrants as approximations to square miles, with a little more code, and this might prove slightly more illuminating.
-
 ![Plot of Quadrant Counts](/images/CPQ_2018.jpeg)
+It is important to note several things. First, the areas we have selected are arbitrary. If we wanted, we could establish quadrants as approximations to square miles, with a little more code, and this might prove slightly more illuminating.
 
 But even if we did this, we would have to encounter a larger problem that brings us closer to the actual difficulties of point pattern analysis, and which I will continue to explain below: this is how the frequency of the points within each quadrant are effectively unable to tell us anything about the actual relationship between the events in these areas, without covariates or the calculation of more specific types of patterns between the points. We are able to see from this initial exploration that collisions occur in the quadrants that overlay the downtown of Seattle, for instance. And while this has some relationship to the actual problems involved in designing and maintaining the infrastructure in this area, it is unclear what types of problems these would be and how they relate to the problems of other areas? Are collisions actually more frequent in Seattle's downtown? In what way?
 

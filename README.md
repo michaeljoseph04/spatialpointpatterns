@@ -1,4 +1,4 @@
-spatialpointpatterns
+Spatial Point Patterns
 
 This site is a guide for spatial point pattern analysis for the analysis of urban systems.
 
